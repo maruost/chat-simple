@@ -1,0 +1,59 @@
+@import "../../utils/styleVar/variables.scss";
+.message {
+  font-size: $m;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.message_chatMessage {
+  align-self: flex-start;
+}
+
+.message_chatUserMessage {
+  align-self: flex-end;
+}
+
+.name {
+  font-size: $m;
+  padding: 0 0;
+  margin: 0 0 5px;
+}
+
+.name_chatMessage {
+  align-self: flex-start;
+}
+
+.name_chatUserMessage {
+  align-self: flex-end;
+}
+
+.text {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.text_chatMessage {
+  background-color: $secondary-color;
+  color: $dark-color;
+}
+
+.text_chatUserMessage {
+  background-color: $primary-color;
+  color: $light-color;
+}
+
+.timestamp {
+  margin: 5px 0 0;
+  font-size: $s;
+  color: $third-color;
+}
+
+.timestamp_chatMessage {
+  align-self: flex-start;
+}
+
+.timestamp_chatUserMessage {
+  align-self: flex-end;
+}
